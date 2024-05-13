@@ -1,0 +1,15 @@
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.csproj.AssemblyReference.cache
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.AssemblyInfoInputs.cache
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.AssemblyInfo.cs
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.csproj.CoreCompileInputs.cache
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\bin\Debug\net7.0\RotaViagem.Repository.deps.json
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\bin\Debug\net7.0\RotaViagem.Repository.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\bin\Debug\net7.0\RotaViagem.Repository.pdb
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\bin\Debug\net7.0\RotaViagem.Domain.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\bin\Debug\net7.0\RotaViagem.Domain.pdb
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.csproj.CopyComplete
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\refint\RotaViagem.Repository.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\RotaViagem.Repository.pdb
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.Repository\obj\Debug\net7.0\ref\RotaViagem.Repository.dll

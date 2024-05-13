@@ -1,0 +1,15 @@
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\bin\Debug\net7.0\RotaViagem.DatabaseMigrate.exe
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\bin\Debug\net7.0\RotaViagem.DatabaseMigrate.deps.json
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\bin\Debug\net7.0\RotaViagem.DatabaseMigrate.runtimeconfig.json
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\bin\Debug\net7.0\RotaViagem.DatabaseMigrate.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\bin\Debug\net7.0\RotaViagem.DatabaseMigrate.pdb
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.AssemblyInfoInputs.cache
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.AssemblyInfo.cs
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.csproj.CoreCompileInputs.cache
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\refint\RotaViagem.DatabaseMigrate.dll
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.pdb
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\RotaViagem.DatabaseMigrate.genruntimeconfig.cache
+C:\Repositorios_Pessoal\RotaViagem\Infra\RotaViagem.DatabaseMigrate\obj\Debug\net7.0\ref\RotaViagem.DatabaseMigrate.dll
+
