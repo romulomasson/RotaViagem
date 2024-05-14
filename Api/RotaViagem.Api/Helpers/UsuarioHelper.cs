@@ -18,18 +18,18 @@ public class UsuarioHelper : IUserHelper
             if (_usuarioLogado != null) return this._usuarioLogado;
 
             ClaimsPrincipal user = _context.HttpContext.User;
-            var id = user.Claims.FirstOrDefault(c => c.Type == "id");
+            var id = 1;
             var email = user.Claims.FirstOrDefault(c => c.Type == "email");
             var partnerId = user.Claims.FirstOrDefault(c => c.Type == "id_empresa");
             var idUsuarioReal = user.Claims.FirstOrDefault(c => c.Type == "id_usuario_real");
             var empresaid = user.Claims.FirstOrDefault(c => c.Type == "empresaid");
             var usuarioPerfil = 1;
             bool IsAdmin = true;
-
-            if (id == null || email == null)
-                throw new UsuarioExpiradoException(nameof(UserIdentity), nameof(UsuarioLogado), "Usu?rio precisa refazer o login.");
+            
+            //if (id == null || email == null)
+            //    throw new UsuarioExpiradoException(nameof(UserIdentity), nameof(UsuarioLogado), "Usu?rio precisa refazer o login.");
 #if DEBUG
-            this._usuarioLogado = new UserIdentity(Convert.ToInt32(id.Value), email.Value, Convert.ToInt32(idUsuarioReal?.Value), 9983, usuarioPerfil, IsAdmin, Convert.ToInt32(empresaid?.Value));
+            this._usuarioLogado = new UserIdentity(1, "romulomasson@gmail.com", Convert.ToInt32(idUsuarioReal?.Value), 9983, usuarioPerfil, IsAdmin, Convert.ToInt32(empresaid?.Value));
 #else
             this._usuarioLogado = new UsuarioIdentity(Convert.ToInt32(id.Value), email.Value, Convert.ToInt32(idUsuarioReal?.Value), Convert.ToInt32(partnerId.Value), usuarioPerfil, IsAdmin, Convert.ToInt32(empresaid?.Value));
 #endif

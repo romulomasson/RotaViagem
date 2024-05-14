@@ -26,11 +26,12 @@ public class RotaController : ControllerBase<RotaViagemContext, Rota, RotaViewMo
         _rotaApplication = rotaApplication;
     }
 
-    [HttpGet("ObterMelhorRota")]
+    [HttpPost("ObterMelhorRota")]
     public Task<IActionResult> ObterMelhorRota([FromBody] RotaDTO model)
     {
         Rota result = _rotaApplication.ObterMelhorRota(model.Origem, model.Destino );
-        return Task.FromResult<IActionResult>(Ok(string.Concat(result.Descricao, "- R$", result.Custo)));
+        return Task.FromResult<IActionResult>(Ok(new { MelhorRota = string.Concat(result.Descricao, "- R$", result.Custo) }));
+
     }
 
 

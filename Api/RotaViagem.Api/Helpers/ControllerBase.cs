@@ -43,7 +43,7 @@ public class ControllerBase<TContext, TEntity, TViewModel> : ControllerBase
     public virtual Task<IActionResult> Get()
     {
         var list = _application.GetAll();
-        return Task.FromResult<IActionResult>(Ok(_mapper.Map<IList<TViewModel>>(list)));
+        return Task.FromResult<IActionResult>(Ok((list)));
     }
 
     [HttpGet("filter")]
@@ -65,7 +65,7 @@ public class ControllerBase<TContext, TEntity, TViewModel> : ControllerBase
     public virtual Task<IActionResult> Post([FromBody] TViewModel model)
     {
         //Throw.IfIsNull(model, this._localizer["campoNulo", nameof(model)]);
-        var result = _mapper.Map<TViewModel>(_application.Save(model.Model()));
+        var result = _application.Save(model.Model());
         return Task.FromResult<IActionResult>(Ok(result));
     }
 
@@ -75,7 +75,7 @@ public class ControllerBase<TContext, TEntity, TViewModel> : ControllerBase
         //Throw.IfIsNull(id, this._localizer["campoNulo", nameof(id)]);
         //Throw.IfLessThanOrEqZero(id, this._localizer["menorOuIgual", nameof(id), "zero"]);
         //Throw.IfIsNull(model, this._localizer["campoNulo", nameof(model)]);
-        var result = _mapper.Map<TViewModel>(_application.Update(model.Model()));
+        var result = _application.Update(model.Model());
         return Task.FromResult<IActionResult>(Ok(result));
     }
 
